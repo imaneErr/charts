@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:padding="20dp"
+    tools:context=".PieChartActivity">
+<LinearLayout
+android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginBottom="20dp"
+    android:orientation="vertical">
+<com.github.mikephil.charting.charts.PieChart
+android:id="@+id/pieChart"
+    android:layout_width="match_parent"
+    android:layout_height="450dp"
+    android:layout_marginBottom="10dp" />
+<LinearLayout
+android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="20dp"
+    android:orientation="vertical">
+<TextView
+android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="10dp"
+    android:text="Pie Chart Example"
+    android:textColor="@color/black"
+    android:textSize="20sp"
+    android:textStyle="bold" />
+<RelativeLayout
+android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="20dp">
+<ImageView
+android:id="@+id/input"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_centerVertical="true"
+    android:layout_marginStart="10dp"
+    android:src="@drawable/entrer"
+    android:layout_marginLeft="10dp" />
+<LinearLayout
+android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_toEndOf="@+id/input"
+    android:orientation="vertical"
+    android:layout_toRightOf="@+id/input">
+<TextView
+android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="16dp"
+    android:text="Entry year"
+    android:textSize="11sp"
+    android:layout_marginLeft="16dp" />
+<TextView
+android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="16dp"
+    android:gravity="center"
+    android:text="2012"
+    android:textAlignment="center"
+    android:textColor="@color/black"
+    android:textSize="15sp"
+    android:textStyle="bold"
+    android:layout_marginLeft="16dp" />
+    </LinearLayout>
+<TextView
+android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignParentEnd="true"
+    android:layout_centerVertical="true"
+    android:layout_marginEnd="10dp"
+    android:text="Entries: 200"
+    android:textColor="@color/black"
+    android:textSize="16sp"
+    android:textStyle="bold"
+    android:layout_alignParentRight="true"
+    android:layout_marginRight="10dp" />
+    </RelativeLayout>
+<RelativeLayout
+android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="10dp">
+<ImageView
+android:id="@+id/input1"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_centerVertical="true"
+    android:layout_marginStart="10dp"
+    android:src="@drawable/entrer2"
+    android:layout_marginLeft="10dp" />
+<LinearLayout
+android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_toEndOf="@+id/input1"
+    android:orientation="vertical"
+    android:layout_toRightOf="@+id/input1">
+<TextView
+android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="16dp"
+    android:text="Entry year"
+    android:textSize="11sp"
+    android:layout_marginLeft="16dp" />
+<TextView
+    android:layout_marginLeft="16dp"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="16dp"
+    android:gravity="center"
+    android:text="2013"
+    android:textAlignment="center"
+    android:textColor="@color/black"
+    android:textSize="15sp"
+    android:textStyle="bold" />
+    </LinearLayout>
+<TextView
+    android:layout_marginRight="10dp"
+    android:layout_alignParentRight="true"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignParentEnd="true"
+    android:layout_centerVertical="true"
+    android:layout_marginEnd="10dp"
+    android:text="Entries: 350"
+    android:textColor="@color/black"
+    android:textSize="16sp"
+    android:textStyle="bold" />
+    </RelativeLayout>
+<RelativeLayout
+android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="10dp">
+<ImageView
+android:id="@+id/input2"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_centerVertical="true"
+    android:layout_marginStart="10dp"
+    android:src="@drawable/entrer3"
+    android:layout_marginLeft="10dp" />
+<LinearLayout
+android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_toEndOf="@+id/input2"
+    android:orientation="vertical"
+    android:layout_toRightOf="@+id/input2">
+<TextView
+    android:layout_marginLeft="16dp"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="16dp"
+    android:text="Entry year"
+    android:textSize="11sp" />
+<TextView
+    android:layout_marginLeft="16dp"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="16dp"
+    android:gravity="center"
+    android:text="2014"
+    android:textAlignment="center"
+    android:textColor="@color/black"
+    android:textSize="15sp"
+    android:textStyle="bold" />
+    </LinearLayout>
+<TextView
+    android:layout_marginRight="10dp"
+    android:layout_alignParentRight="true"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignParentEnd="true"
+    android:layout_centerVertical="true"
+    android:layout_marginEnd="10dp"
+    android:text="Entries: 480"
+    android:textColor="@color/black"
+    android:textSize="16sp"
+    android:textStyle="bold" />
+    </RelativeLayout>
+<RelativeLayout
+android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="10dp" >
+<ImageView
+    android:layout_marginLeft="10dp"
+    android:id="@+id/input3"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_centerVertical="true"
+    android:layout_marginStart="10dp"
+    android:src="@drawable/entrer3" />
+<LinearLayout
+    android:layout_toRightOf="@+id/input3"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_toEndOf="@+id/input3"
+    android:orientation="vertical">
+<TextView
+    android:layout_marginLeft="16dp"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="16dp"
+    android:text="Entry year"
+    android:textSize="11sp" />
+<TextView
+    android:layout_marginLeft="16dp"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="16dp"
+    android:gravity="center"
+    android:text="2015"
+    android:textAlignment="center"
+    android:textColor="@color/black"
+    android:textSize="15sp"
+    android:textStyle="bold" />
+    </LinearLayout>
+<TextView
+    android:layout_marginRight="10dp"
+    android:layout_alignParentRight="true"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignParentEnd="true"
+    android:layout_centerVertical="true"
+    android:layout_marginEnd="10dp"
+    android:text="Entries: 120"
+    android:textColor="@color/black"
+    android:textSize="16sp"
+    android:textStyle="bold" />
+    </RelativeLayout>
+<RelativeLayout
+android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="10dp">
+<ImageView
+android:id="@+id/input5"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_centerVertical="true"
+    android:layout_marginStart="10dp"
+    android:src="@drawable/entrer"
+    android:layout_marginLeft="10dp" />
+<LinearLayout
+    android:layout_toRightOf="@+id/input5"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_toEndOf="@+id/input5"
+    android:orientation="vertical">
+<TextView
+    android:layout_marginLeft="16dp"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="16dp"
+    android:text="Entry year"
+    android:textSize="11sp" />
+<TextView
+    android:layout_marginLeft="16dp"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="16dp"
+    android:gravity="center"
+    android:text="2016"
+    android:textAlignment="center"
+    android:textColor="@color/black"
+    android:textSize="15sp"
+    android:textStyle="bold" />
+    </LinearLayout>
+<TextView
+    android:layout_marginRight="10dp"
+    android:layout_alignParentRight="true"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignParentEnd="true"
+    android:layout_centerVertical="true"
+    android:layout_marginEnd="10dp"
+    android:text="Entries: 260"
+    android:textColor="@color/black"
+    android:textSize="16sp"
+    android:textStyle="bold"/>
+    </RelativeLayout>
+    </LinearLayout>
+    </LinearLayout>
+    </androidx.core.widget.NestedScrollView>

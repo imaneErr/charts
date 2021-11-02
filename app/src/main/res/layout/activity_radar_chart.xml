@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.core.widget.NestedScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    android:gravity="center"
+    tools:context=".RadarChartActivity">
+<LinearLayout
+android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginBottom="20dp"
+    android:orientation="vertical">
+<com.github.mikephil.charting.charts.RadarChart
+android:layout_width="match_parent"
+    android:layout_height="400dp"
+    android:id="@+id/radarChart"
+    android:layout_marginBottom="20dp"/>
+<LinearLayout
+android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="20dp"
+    android:orientation="vertical">
+<TextView
+android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="10dp"
+    android:text="Radar Chart Example"
+    android:textColor="@color/black"
+    android:textSize="20sp"
+    android:textStyle="bold" />
+<RelativeLayout
+android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="20dp">
+<ImageView
+android:id="@+id/input"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_centerVertical="true"
+    android:layout_marginStart="10dp"
+    android:src="@drawable/entrer4"
+    android:layout_marginLeft="10dp" />
+<LinearLayout
+android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_toEndOf="@+id/input"
+    android:orientation="vertical"
+    android:layout_toRightOf="@+id/input">
+<TextView
+    android:layout_marginLeft="16dp"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="16dp"
+    android:text="Entry No"
+    android:textSize="11sp" />
+<TextView
+    android:layout_marginLeft="16dp"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="16dp"
+    android:gravity="center"
+    android:text="1"
+    android:textAlignment="center"
+    android:textColor="@color/black"
+    android:textSize="15sp"
+    android:textStyle="bold" />
+    </LinearLayout>
+    </RelativeLayout>
+<RelativeLayout
+android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="10dp">
+<ImageView
+    android:layout_marginLeft="10dp"
+    android:id="@+id/input1"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_centerVertical="true"
+    android:layout_marginStart="10dp"
+    android:src="@drawable/entrer3" />
+<LinearLayout
+android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_toEndOf="@+id/input1"
+    android:orientation="vertical"
+    android:layout_toRightOf="@+id/input1">
+<TextView
+    android:layout_marginLeft="16dp"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="16dp"
+    android:text="Entry No"
+    android:textSize="11sp" />
+<TextView
+    android:layout_marginLeft="16dp"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="16dp"
+    android:gravity="center"
+    android:text="2"
+    android:textAlignment="center"
+    android:textColor="@color/black"
+    android:textSize="15sp"
+    android:textStyle="bold" />
+    </LinearLayout>
+    </RelativeLayout>
+    </LinearLayout>
+    </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
